@@ -1,0 +1,5 @@
+.header__nav {
+    grid-area: nav;
+    border: 2px solid #000;
+
+}

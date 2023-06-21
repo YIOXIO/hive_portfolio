@@ -1,0 +1,12 @@
+.header__list {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 100%;
+    list-style: none;
+    margin: 25px 0 0 0;
+    max-width: 326px;
+    overflow: visible;
+    padding: 34px 0 34px 56px;
+}

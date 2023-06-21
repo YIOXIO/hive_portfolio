@@ -1,0 +1,9 @@
+.header__wrapper {
+    display: flex;
+    flex-direction: column;
+    grid-area: wrapper;
+    justify-content: flex-start;
+    margin: 0 0 0 30px;
+    max-width: 236px;
+    gap: 25px;
+}

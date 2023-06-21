@@ -1,0 +1,12 @@
+.header {
+    background-image: url('../../images/header-background.png');
+    width: 100%;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #4655D8;
+    max-height: 780px;
+    height: 780px;
+    position: relative;
+    z-index: 2;
+}
