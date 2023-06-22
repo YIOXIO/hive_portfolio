@@ -10,3 +10,59 @@
 @import '../blocks/header/__item/header__item.css';
 @import '../blocks/header/__nav/header__nav.css';
 @import '../blocks/header/__link/header__link.css';
+@import '../blocks/header/__span-accent/header__span-accent.css';
+@import '../blocks/header/__numbers/header__numbers.css';
+
+
+.numbers {
+    color: #202020;
+    font-size: 48.133px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -120px;
+    right: 155px;
+
+}
+
+.services__title {
+    color: #1A1A1A;
+    font-size: 80px;
+    font-weight: 500;
+    max-width: max-content;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 55px;
+    left: 220px;
+}
+
+.services__title::after {
+    content: '01';
+    position: relative;
+    bottom: 50px;
+    color: #1A1A1A;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.title__element {
+    background: #E6FE51;
+    width: max-content;
+    width: 427px;
+    height: 86.527px;
+}
+
+
+.title__element::after {
+    background: #1a1a1a;
+    content: "";
+    display: block;
+    height: 17px;
+    margin-left: 45px;
+    max-width: 125px;
+    position: relative;
+    top: -60px;
+    left: 225px;
+}

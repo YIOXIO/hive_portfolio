@@ -1,5 +1,7 @@
 .header__nav {
     grid-area: nav;
-    border: 2px solid #000;
+    border: 2.6px solid #000;
+    max-width: 326px;
+    max-height: 311px;
 
 }

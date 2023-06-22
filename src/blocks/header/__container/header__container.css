@@ -7,5 +7,6 @@
         "wrapper nav ";
     max-width: 692px;
     margin: 0 0 0 240px;
-    padding-top: 35px
+    padding-top: 35px;
+    gap: 20px;
 }
