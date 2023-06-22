@@ -1,4 +1,4 @@
-.header__title {
+.services__title {
     color: #1A1A1A;
     font-size: 80px;
     font-weight: 500;
@@ -9,4 +9,13 @@
     position: relative;
     bottom: 55px;
     left: 220px;
+}
+
+.services__title::after {
+    content: '01';
+    position: relative;
+    bottom: 50px;
+    color: #1A1A1A;
+    font-size: 30px;
+    font-weight: 500;
 }

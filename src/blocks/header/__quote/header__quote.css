@@ -1,0 +1,13 @@
+.header__quote {
+    grid-area: script;
+    max-width: 403px;
+    height: 176px;
+    margin: 14px;
+    padding: 0px 15px 0 10px;
+    box-sizing: border-box;
+    align-self: flex-end;
+    color: #1A1A1A;
+    font-size: 17px;
+    line-height: 115%;
+    font-weight: 500;
+}

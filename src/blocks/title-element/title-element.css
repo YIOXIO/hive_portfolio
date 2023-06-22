@@ -1,0 +1,23 @@
+.title-element {
+    background: #E6FE51;
+    width: max-content;
+    max-width: 427px;
+    width: 100%;
+    height: 86.527px;
+    align-self: end;
+    grid-area: title;
+    margin-left: 43px;
+}
+
+
+.title-element::after {
+    background: #1a1a1a;
+    content: "";
+    display: block;
+    height: 17px;
+    margin-left: 45px;
+    max-width: 125px;
+    position: relative;
+    top: -60px;
+    left: 225px;
+}
