@@ -14,7 +14,7 @@
 .services__title::after {
     content: '01';
     position: relative;
-    bottom: 50px;
+    bottom: 60px;
     color: #1A1A1A;
     font-size: 30px;
     font-weight: 500;
