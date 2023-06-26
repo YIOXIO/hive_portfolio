@@ -1,0 +1,23 @@
+.numbers__list {
+    display: flex;
+    list-style: none;
+    max-width: 1378px;
+    margin: 101px auto 100px auto;
+    padding: 0;
+    gap: 120px;
+    box-sizing: border-box;
+    height: 233px;
+}
+
+
+.numbers__list> :nth-child(1) {
+    flex-basis: 0;
+}
+
+.numbers__list> :nth-child(3) {
+    flex-basis: 0;
+}
+
+.numbers__list> :nth-child(4) {
+    flex-basis: 0;
+}

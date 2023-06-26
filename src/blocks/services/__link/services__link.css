@@ -1,0 +1,31 @@
+.services__link {
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 44px 0 30px 51px;
+    color: #1A1A1A;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.35;
+    text-transform: uppercase;
+    overflow: visible;
+    word-wrap: break-word;
+}
+
+.services__link:hover .services__card-descr {
+    width: max-content;
+}
+
+
+.services__link svg {
+    transform: translate3d(10px, 5px, 10px);
+    width: 73px;
+    transition: transform 0.3s ease;
+}
+
+.services__link:hover svg {
+    width: 100px;
+    transform: translate3d(50px, 5px, 10px);
+}

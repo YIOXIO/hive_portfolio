@@ -4,6 +4,8 @@
 
 @import '../blocks/title-element/title-element.css';
 @import '../blocks/title-element/_special/title-element_special.css';
+@import '../blocks/block-element/block-element.css';
+
 
 /* Стили для header */
 @import '../blocks/header/header.css';
@@ -20,101 +22,49 @@
 
 /* Section Services */
 @import '../blocks/services/__title/services__title.css';
+@import '../blocks/services/__card-descr/services__card-descr.css';
+@import '../blocks/services/__card-wrapper/services__card-wrapper.css';
+@import '../blocks/services/__container/services__container.css';
+@import '../blocks/services/__description/serivces__description.css';
+@import '../blocks/services/__description/_uppercase/services__description_uppercase.css';
+@import '../blocks/services/__item/services__item.css';
+@import '../blocks/services/__link/services__link.css';
+@import '../blocks/services/__list/services__list.css';
+@import '../blocks/services/__wrapper/services__wrapper.css';
+
+/* Стили для секции Numbers */
+@import '../blocks/numbers/__title/numbers__title.css';
+@import '../blocks/numbers/__subtitle/numbers__subtitle.css';
+@import '../blocks/numbers/__list/numbers__list.css';
+@import '../blocks/numbers/__item/numbers__item.css';
+@import '../blocks/numbers/__descr/numbers__descr.css';
 
 
+/* Стили для секции Trust */
+@import '../blocks/trust/__title/trust__title.css';
+@import '../blocks/marquee/marquee.css';
+@import '../blocks/marquee-content/marquee-content.css';
 
 
-.services__container {
-    display: flex;
-    flex-direction: column;
-    margin-right: 140px;
-}
-
-.services__description {
+.team__title {
     color: #1A1A1A;
-    text-align: justify;
-    font-size: 17px;
-    line-height: 1.45;
+    font-size: 80px;
+    font-weight: 500;
+    margin: 198px 0 0 0;
     padding: 0;
-    margin: 0;
-    max-width: 328px;
-}
-
-.services__description_uppercase {
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 1.3;
     text-transform: uppercase;
-    text-align: left;
-    max-width: 350px;
-    margin-bottom: 22px;
+    position: relative;
+    bottom: 55px;
+    left: 220px;
+    max-width: 650px;
+    white-space: nowrap;
 }
 
-.block-element {
-    display: block;
-    background-color: #7D88E4;
-    width: 125px;
-    height: 17px;
-    flex-shrink: 0;
-    margin: 115px 0;
-}
-
-.services__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 846px;
-    gap: 50px 136px;
-}
-
-.services__item {
-    display: flex;
-    height: 311px;
-    max-width: 330px;
-    border: 2.6px solid #1A1A1A;
-}
-
-.services__link {
-    text-decoration: none;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 44px 0 30px 51px;
+.team__title::after {
+    content: '04';
+    position: relative;
+    bottom: 60px;
     color: #1A1A1A;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
-    line-height: 1.35;
-    text-transform: uppercase;
-}
-
-.services__wrapper {
-    display: flex;
-    margin: 112px 0 0 270px;
-}
-
-.card-description {
-    color: #1A1A1A;
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 1.35;
-    text-transform: uppercase;
-    margin: 0;
-    max-width: 350px;
-    height: 100%;
-    transition: width 0.3s ease-in-out;
-}
-
-.card-description:hover {
-    width: max-content;
-}
-
-.card-wrapper {
-    display: flex;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding: 0 20px 0 0;
 }

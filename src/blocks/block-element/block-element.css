@@ -1,0 +1,8 @@
+.block-element {
+    display: block;
+    background-color: #7D88E4;
+    width: 125px;
+    height: 17px;
+    flex-shrink: 0;
+    margin: 115px 0;
+}

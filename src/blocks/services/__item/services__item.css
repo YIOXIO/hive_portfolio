@@ -1,0 +1,7 @@
+.services__item {
+    display: flex;
+    height: 311px;
+    max-width: 330px;
+    border: 2.6px solid #1A1A1A;
+    overflow: visible;
+}

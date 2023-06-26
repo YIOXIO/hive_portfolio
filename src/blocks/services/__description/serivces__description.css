@@ -1,0 +1,9 @@
+.services__description {
+    color: #1A1A1A;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.45;
+    padding: 0;
+    margin: 0;
+    max-width: 328px;
+}

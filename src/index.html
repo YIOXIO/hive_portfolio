@@ -79,7 +79,7 @@
                 <ul class="services__list">
                     <li class="services__item">
                         <a class="services__link" href="">
-                            <p class="card-description">
+                            <p class="services__card-descr">
                                 графический дизайн, визуализация дизайна интерьера
 
                             </p>
@@ -99,7 +99,7 @@
                     </li>
                     <li class="services__item">
                         <a class="services__link" href="">
-                            <p class="card-description">
+                            <p class="services__card-descr">
                                 разработка CRM-систем </p>
                             <div class="card-wrapper">
                                 <img src="<%=require('./images/Vector.png')%>" alt="">
@@ -116,7 +116,7 @@
                     </li>
                     <li class="services__item">
                         <a class="services__link" href="">
-                            <p class="card-description">разработка порталов
+                            <p class="services__card-descr">разработка порталов
                                 и веб-сайтов</p>
                             <div class="card-wrapper">
                                 <img src="<%=require('./images/Vector.png')%>" alt="">
@@ -133,7 +133,7 @@
                     </li>
                     <li class="services__item">
                         <a class="services__link" href="">
-                            <p class="card-description"> Разработка ПО</p>
+                            <p class="services__card-descr"> Разработка ПО</p>
                             <div class="card-wrapper">
                                 <img src="<%=require('./images/Vector.png')%>" alt="">
 
@@ -149,7 +149,7 @@
                     </li>
                     <li class="services__item">
                         <a class="services__link" href="">
-                            <p class="card-description">разработка дашбордов</p>
+                            <p class="services__card-descr">разработка дашбордов</p>
                             <div class="card-wrapper">
                                 <img src="<%=require('./images/Vector.png')%>" alt="">
 
@@ -165,7 +165,7 @@
                     </li>
                     <li class="services__item">
                         <a class="services__link" href="">
-                            <p class="card-description">Разработка проектов с внедрением искусственного
+                            <p class="services__card-descr">Разработка проектов с внедрением искусственного
                                 интеллекта </p>
                             <div class="card-wrapper">
                                 <img src="<%=require('./images/Vector.png')%>" alt="">
@@ -182,7 +182,7 @@
                     </li>
                     <li class="services__item">
                         <a class="services__link" href="">
-                            <p class="card-description">разработка мобильных приложений</p>
+                            <p class="services__card-descr">разработка мобильных приложений</p>
                             <div class="card-wrapper">
                                 <img src="<%=require('./images/Vector.png')%>" alt="">
 
@@ -198,7 +198,7 @@
                     </li>
                     <li class="services__item">
                         <a class="services__link" href="">
-                            <p class="card-description">интернет реклама и seo</p>
+                            <p class="services__card-descr">интернет реклама и seo</p>
                             <div class="card-wrapper">
                                 <img src="<%=require('./images/Vector.png')%>" alt="">
 
@@ -216,9 +216,64 @@
             </div>
         </section>
         <section class="numbers">
-            <h2 class="numbers__title">
+            <div class="title-element">
+                <h2 class="numbers__title">наши цифры</h2>
+            </div>
 
-            </h2>
+            <ul class="numbers__list">
+                <li class="numbers__item">
+                    <p class="numbers__subtitle">360+</p>
+                    <p class="numbers__descr">Ниш в бизнесе охватывают наши специалисты</p>
+                </li>
+                <li class="numbers__item">
+                    <p class="numbers__subtitle">7,8+ млн.</p>
+                    <p class="numbers__descr">Рублей - цена заявки и рекорд стоимости заявки с сайта в 2020 году</p>
+                </li>
+                <li class="numbers__item">
+                    <p class="numbers__subtitle">+15%</p>
+                    <p class="numbers__descr">К конверсии сайта, оторвёмся от конкурентов за 24 часа</p>
+                </li>
+                <li class="numbers__item">
+                    <p class="numbers__subtitle">213+</p>
+                    <p class="numbers__descr">Презентаций в год для наших клиентов спикеров</p>
+                </li>
+            </ul>
+
+        </section>
+        <section class="trust">
+            <div class="title-element">
+                <h2 class="trust__title">нам доверяют</h2>
+            </div>
+            <div class="marquee">
+                <ul class="marquee-content">
+                    <li> <img src="<%=require('./images/logos/asi.png')%>" alt=""></li>
+                    <li> <img src="<%=require('./images/logos/boiling.png')%>" alt=""></li>
+                    <li> <img src="<%=require('./images/logos/cap.png')%>" alt=""></li>
+                    <li> <img src="<%=require('./images/logos/govmos.png')%>" alt=""></li>
+                    <li> <img src="<%=require('./images/logos/group.png')%>" alt=""></li>
+                    <li> <img src="<%=require('./images/logos/mgu.png')%>" alt=""></li>
+                    <li> <img src="<%=require('./images/logos/mincifr.png')%>" alt=""></li>
+                    <li> <img src="<%=require('./images/logos/minnauka.png')%>" alt=""></li>
+                    <li> <img src="<%=require('./images/logos/mobr.png')%>" alt=""></li>
+                    <li> <img src="<%=require('./images/logos/msport.png')%>" alt=""></li>
+                    <li> <img src="<%=require('./images/logos/nti.png')%>" alt=""></li>
+                    <li> <img src="<%=require('./images/logos/rsv.png')%>" alt=""></li>
+                    <li> <img src="<%=require('./images/logos/sber.png')%>" alt=""></li>
+                    <li> <img src="<%=require('./images/logos/sk.png')%>" alt=""></li>
+                    <li> <img src="<%=require('./images/logos/vgik.png')%>" alt=""></li>
+                    <li> <img src="<%=require('./images/logos/vtb.png')%>" alt=""></li>
+                </ul>
+            </div>
+        </section>
+        <section class="team">
+            <div class="title-element">
+                <h2 class="team__title">наша команда</h2>
+            </div>
+            <div class="team__profile">
+                <img src="<%=require('./images/team/Начевский.png')%>" alt="" class="team__img">
+                <p class="team__name">Начевский Михаил Владимирович</p>
+                <p class="team__descr">Начальник Управления цифровой трансформации</p>
+            </div>
         </section>
     </main>
     <footer class="footer"></footer>
