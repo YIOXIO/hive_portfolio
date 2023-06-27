@@ -8,6 +8,7 @@
     --marquee-elements-displayed: 5;
     --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
     --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
+    margin: 0 auto;
 }
 
 .marquee:before,

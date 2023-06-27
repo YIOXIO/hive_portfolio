@@ -68,3 +68,61 @@
     font-size: 30px;
     font-weight: 500;
 }
+
+.team__profile {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/Group9.png');
+    background-repeat: no-repeat;
+    max-width: 447px;
+}
+
+.team__name {
+    color: #202020;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin: 50px 0 12px 0;
+    padding: 0;
+    cursor: default;
+    max-width: 350px;
+}
+
+.team__descr {
+    color: #626262;
+    font-size: 20px;
+    font-family: Inter;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+
+}
+
+
+.team__descr::after {
+    content: '';
+    width: 125px;
+    height: 18px;
+    flex-shrink: 0;
+    background-color: #E6FE51;
+    display: block;
+    margin-top: 71px;
+}
+
+.team__img {
+    max-width: 13.6vw;
+
+}
+
+.swiper {
+    max-width: 1650px;
+    margin: 0 0 0 250px;
+    margin: 50px 0 50px auto;
+    margin-right: 0 !important;
+
+    cursor: grab;
+
+}

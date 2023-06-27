@@ -46,3 +46,14 @@ for (let i = 0; i < marqueeElementsDisplayed; i++) {
 
 
 
+// import Swiper JS
+import Swiper from 'swiper';
+// import Swiper styles
+import 'swiper/css';
+
+const swiper = new Swiper('.swiper', {
+    slidesPerView: 3,
+    spaceBetween: 30,
+
+
+});
