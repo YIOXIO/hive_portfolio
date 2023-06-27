@@ -1,8 +1,8 @@
 {
-  "name": "mesto-project",
+  "name": "hive-portfolio",
   "version": "1.0.0",
   "repository": {
-    "url": ""
+    "url": "gti+https://github.com/YIOXIO/hive_portfolio.git"
   },
   "description": "",
   "main": "index.js",
