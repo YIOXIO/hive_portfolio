@@ -1,0 +1,11 @@
+.team__name {
+    color: #202020;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin: 50px 0 12px 0;
+    padding: 0;
+    cursor: default;
+    max-width: 350px;
+}

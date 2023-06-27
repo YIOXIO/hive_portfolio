@@ -5,6 +5,7 @@
 @import '../blocks/title-element/title-element.css';
 @import '../blocks/title-element/_special/title-element_special.css';
 @import '../blocks/block-element/block-element.css';
+@import '../blocks/swiper/swiper.css';
 
 
 /* Стили для header */
@@ -45,8 +46,17 @@
 @import '../blocks/marquee/marquee.css';
 @import '../blocks/marquee-content/marquee-content.css';
 
+/* Стили для секции Team */
+@import '../blocks/team/__title/team__title.css';
+@import '../blocks/team/__profile/team__profile.css';
+@import '../blocks/team/__name/team__name.css';
+@import '../blocks/team/__img/team__img.css';
+@import '../blocks/team/__descr/team__descr.css';
 
-.team__title {
+
+
+
+.feedback__title {
     color: #1A1A1A;
     font-size: 80px;
     font-weight: 500;
@@ -60,69 +70,11 @@
     white-space: nowrap;
 }
 
-.team__title::after {
-    content: '04';
+.feedback__title::after {
+    content: '';
     position: relative;
     bottom: 60px;
     color: #1A1A1A;
     font-size: 30px;
     font-weight: 500;
-}
-
-.team__profile {
-    display: flex;
-    flex-direction: column;
-    background-image: url('../images/Group9.png');
-    background-repeat: no-repeat;
-    max-width: 447px;
-}
-
-.team__name {
-    color: #202020;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 130%;
-    text-transform: uppercase;
-    margin: 50px 0 12px 0;
-    padding: 0;
-    cursor: default;
-    max-width: 350px;
-}
-
-.team__descr {
-    color: #626262;
-    font-size: 20px;
-    font-family: Inter;
-    line-height: 130%;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-    cursor: default;
-
-}
-
-
-.team__descr::after {
-    content: '';
-    width: 125px;
-    height: 18px;
-    flex-shrink: 0;
-    background-color: #E6FE51;
-    display: block;
-    margin-top: 71px;
-}
-
-.team__img {
-    max-width: 13.6vw;
-
-}
-
-.swiper {
-    max-width: 1650px;
-    margin: 0 0 0 250px;
-    margin: 50px 0 50px auto;
-    margin-right: 0 !important;
-
-    cursor: grab;
-
 }

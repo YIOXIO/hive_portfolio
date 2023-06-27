@@ -1,0 +1,7 @@
+.team__profile {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../../images/Group9.png');
+    background-repeat: no-repeat;
+    max-width: 447px;
+}

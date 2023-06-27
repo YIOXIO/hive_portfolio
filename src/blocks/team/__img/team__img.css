@@ -1,0 +1,6 @@
+.team__img {
+    max-width: 100%;
+    object-position: center;
+    object-fit: none;
+    max-height: 392px;
+}
