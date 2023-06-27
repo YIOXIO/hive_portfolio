@@ -78,3 +78,48 @@
     font-size: 30px;
     font-weight: 500;
 }
+
+
+
+.feedback__form {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 73px 67px 73px 112px;
+    border: 2.6px solid #1A1A1A;
+    box-sizing: border-box;
+}
+
+.feedback__list {
+    list-style: none;
+    column-gap: 50px;
+    margin: 0 0 43px 0;
+    padding: 0;
+    display: flex;
+}
+
+.feedback__input {
+    padding: 28px 0 28px 25px;
+    border: 2.6px solid #767676;
+    color: #626262;
+    font-size: 17px;
+    line-height: 145%;
+    opacity: .5;
+
+}
+
+
+.feedback__submit-button {
+    text-align: center;
+    background-color: #e6fe51;
+    box-sizing: border-box;
+    color: #202020;
+    cursor: pointer;
+    font-size: 22px;
+    height: 100%;
+    line-height: 130%;
+    max-height: 81px;
+    max-width: 330px;
+    padding: 33px 42px;
+    text-transform: uppercase;
+    width: 100%;
+}
