@@ -53,10 +53,19 @@
 @import '../blocks/team/__img/team__img.css';
 @import '../blocks/team/__descr/team__descr.css';
 
+/* Стили для FeedBack */
+
+@import '../blocks/feedback/__form/feedback__form.css';
+@import '../blocks/feedback/__input/feedback__input.css';
+@import '..//blocks/feedback/__link/feedback__link.css';
+@import '../blocks/feedback/__list/feedback__list.css';
+@import '../blocks/feedback/__submit-button/feedback__submit-button.css';
+@import '../blocks/feedback/__title/feedback__title.css';
 
 
 
-.feedback__title {
+
+.contact__title {
     color: #1A1A1A;
     font-size: 80px;
     font-weight: 500;
@@ -70,7 +79,7 @@
     white-space: nowrap;
 }
 
-.feedback__title::after {
+.contact__title::after {
     content: '';
     position: relative;
     bottom: 60px;
@@ -79,47 +88,42 @@
     font-weight: 500;
 }
 
-
-
-.feedback__form {
-    max-width: 1380px;
-    margin: 0 auto;
-    padding: 73px 67px 73px 112px;
-    border: 2.6px solid #1A1A1A;
-    box-sizing: border-box;
-}
-
-.feedback__list {
+.contact__list {
+    margin: 114px 0 114px 273px;
     list-style: none;
-    column-gap: 50px;
-    margin: 0 0 43px 0;
-    padding: 0;
-    display: flex;
-}
-
-.feedback__input {
-    padding: 28px 0 28px 25px;
-    border: 2.6px solid #767676;
-    color: #626262;
-    font-size: 17px;
-    line-height: 145%;
-    opacity: .5;
-
-}
-
-
-.feedback__submit-button {
-    text-align: center;
-    background-color: #e6fe51;
+    border: 2.6px solid #1A1A1A;
+    padding: 44px 0 44px 51px;
+    max-width: 441px;
     box-sizing: border-box;
-    color: #202020;
-    cursor: pointer;
-    font-size: 22px;
-    height: 100%;
-    line-height: 130%;
-    max-height: 81px;
-    max-width: 330px;
-    padding: 33px 42px;
+}
+
+.contact__subtitle {
+    color: #1A1A1A;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 135%;
     text-transform: uppercase;
-    width: 100%;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.contact__link {
+    color: #000;
+    font-size: 20px;
+    line-height: 145%;
+    text-decoration: none;
+    transition: opacity .3s ease;
+    opacity: .5;
+}
+
+.contact__link:hover {
+    opacity: .8;
+}
+
+.contact__list :is(li:nth-child(1)) {
+    margin-bottom: 30px;
+}
+
+.contact__img {
+    margin-top: 23px;
 }

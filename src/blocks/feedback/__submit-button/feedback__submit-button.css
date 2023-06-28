@@ -1,0 +1,22 @@
+.feedback__submit-button {
+    text-align: center;
+    background-color: #e6fe51;
+    box-sizing: border-box;
+    color: #202020;
+    cursor: pointer;
+    font-size: 22px;
+    height: 100%;
+    line-height: 130%;
+    max-height: 81px;
+    max-width: 330px;
+    text-transform: uppercase;
+    width: 100%;
+    white-space: nowrap;
+    transition: padding 0.3s ease;
+
+
+}
+
+.feedback__submit-button:hover {
+    padding-left: 50px;
+}

@@ -1,0 +1,10 @@
+.feedback__form {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 73px 67px 73px 112px;
+    border: 2.6px solid #1A1A1A;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: 117px;
+}

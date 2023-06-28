@@ -1,0 +1,13 @@
+.feedback__input {
+    padding: 28px 0 28px 25px;
+    border: 2.6px solid #767676;
+    color: #626262;
+    font-size: 17px;
+    line-height: 145%;
+    opacity: .5;
+    width: 100%;
+    box-sizing: border-box;
+    max-height: 81px;
+
+
+}

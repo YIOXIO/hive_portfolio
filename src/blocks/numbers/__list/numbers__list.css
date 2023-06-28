@@ -7,17 +7,5 @@
     gap: 120px;
     box-sizing: border-box;
     height: 233px;
-}
-
-
-.numbers__list> :nth-child(1) {
-    flex-basis: 0;
-}
-
-.numbers__list> :nth-child(3) {
-    flex-basis: 0;
-}
-
-.numbers__list> :nth-child(4) {
-    flex-basis: 0;
+    justify-content: space-between;
 }

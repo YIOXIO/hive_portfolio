@@ -1,0 +1,15 @@
+.feedback__link {
+    max-width: 193px;
+    color: #626262;
+    font-size: 11px;
+    line-height: 145%;
+    opacity: .5;
+    text-decoration: none;
+    transition: opacity .3s ease;
+}
+
+
+
+.feedback__link:hover {
+    opacity: .9;
+}
