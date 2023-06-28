@@ -7,3 +7,13 @@
     margin: 0;
     max-width: 328px;
 }
+
+.services__description:nth-child(2)::after {
+    content: '';
+    display: block;
+    background-color: #7D88E4;
+    width: 125px;
+    height: 17px;
+    flex-shrink: 0;
+    margin: 116px 0 116px 45px;
+}

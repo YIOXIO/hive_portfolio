@@ -1,10 +1,7 @@
 .header {
-    background-image: url('../../images/header-background.png');
-    width: 100%;
+    background-image: url('../../images/background_s.png');
     background-repeat: no-repeat;
-    background-size: cover;
     background-color: #4655D8;
-    height: 90vh;
-    margin-bottom: 70px;
-    background-position: center;
+    height: 100vh;
+    margin-bottom: 118px;
 }

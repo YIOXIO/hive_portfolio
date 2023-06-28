@@ -1,0 +1,8 @@
+.header__year {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-left: 55px;
+    margin-bottom: -114px;
+}

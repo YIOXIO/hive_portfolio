@@ -2,9 +2,7 @@
 @import '../vendor/fonts.css';
 @import '../blocks/root/root.css';
 
-@import '../blocks/title-element/title-element.css';
-@import '../blocks/title-element/_special/title-element_special.css';
-@import '../blocks/block-element/block-element.css';
+
 @import '../blocks/swiper/swiper.css';
 
 
@@ -20,6 +18,9 @@
 @import '../blocks/header/__link/header__link.css';
 @import '../blocks/header/__span-accent/header__span-accent.css';
 @import '../blocks/header/__quote/header__quote.css';
+@import '../blocks/header/__plehanov/header__plehanov.css';
+@import '../blocks/header/__year/header__year.css';
+@import '../blocks/header/__numbers/header__numbers.css';
 
 /* Section Services */
 @import '../blocks/services/__title/services__title.css';
@@ -34,6 +35,7 @@
 @import '../blocks/services/__wrapper/services__wrapper.css';
 
 /* Стили для секции Numbers */
+@import '../blocks/numbers/numbers.css';
 @import '../blocks/numbers/__title/numbers__title.css';
 @import '../blocks/numbers/__subtitle/numbers__subtitle.css';
 @import '../blocks/numbers/__list/numbers__list.css';
@@ -42,11 +44,13 @@
 
 
 /* Стили для секции Trust */
+@import '../blocks/trust/trust.css';
 @import '../blocks/trust/__title/trust__title.css';
 @import '../blocks/marquee/marquee.css';
 @import '../blocks/marquee-content/marquee-content.css';
 
 /* Стили для секции Team */
+@import '../blocks/team/team.css';
 @import '../blocks/team/__title/team__title.css';
 @import '../blocks/team/__profile/team__profile.css';
 @import '../blocks/team/__name/team__name.css';
@@ -54,7 +58,7 @@
 @import '../blocks/team/__descr/team__descr.css';
 
 /* Стили для FeedBack */
-
+@import '../blocks/feedback/feedback.css';
 @import '../blocks/feedback/__form/feedback__form.css';
 @import '../blocks/feedback/__input/feedback__input.css';
 @import '..//blocks/feedback/__link/feedback__link.css';

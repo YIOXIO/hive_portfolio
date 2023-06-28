@@ -1,9 +1,10 @@
 .header__nav {
+    align-self: flex-end;
     border: 2.6px solid #000;
-    grid-area: nav;
-    justify-self: self-start;
-    max-height: 311px;
-    max-width: 326px;
-    position: relative;
-    top: 65px;
+    box-sizing: border-box;
+    margin-bottom: -95px;
+    margin-left: 31px;
+    height: 312px;
+    max-width: 328px;
+    transform: translateZ(2px);
 }

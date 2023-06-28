@@ -1,13 +1,14 @@
 .header__quote {
-    grid-area: script;
-    max-width: 403px;
-    height: 176px;
-    margin: 14px;
-    padding: 0px 15px 0 10px;
+    align-self: center;
+    border: 2.6px solid;
     box-sizing: border-box;
-    align-self: flex-end;
-    color: #1A1A1A;
+    color: #1a1a1a;
     font-size: 17px;
-    line-height: 115%;
     font-weight: 500;
+    height: 178px;
+    line-height: 115%;
+    margin-bottom: 152px;
+    margin-left: 313px;
+    padding: 0 15px 0 10px;
+    width: 404px;
 }

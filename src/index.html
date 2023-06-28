@@ -10,20 +10,15 @@
 <body class="root">
     <header class="header">
         <div class="header__container">
-            <div class="title-element">
+            <div class="header__wrapper">
                 <h1 class="header__title">digital</h1>
-
-            </div>
-            <div class="title-element title-element_special">
-                <div class="header__wrapper">
-                    <p class="header__subtitle">отдел технического сопровождения</p>
-                    <p class="header__subtitle">управления цифровой трансформации рэу</p>
-                </div>
+                <p class="header__subtitle">отдел технического сопровождения</p>
+                <p class="header__subtitle">управления цифровой трансформации рэу</p>
             </div>
             <nav class="header__nav">
                 <ul class="header__list">
                     <li class="header__item">
-                        <a class="header__link" href="">
+                        <a class="header__link" href="#services">
                             <span class="header__span-accent">01</span>
                             услуги</a>
                     </li>
@@ -45,14 +40,20 @@
                     </li>
                 </ul>
             </nav>
+            <img class="header__plehanov" src="<%=require('./images/plehanov.png')%>"
+                alt="Изображение Георгий Валентинович Плеханов">
             <q class="header__quote" id="quote-container"></q>
+            <div class="header__year">
+                <span class="header__numbers">20</span>
+                <span class="header__numbers">23</span>
+            </div>
         </div>
+
     </header>
     <main class="page">
-        <section class="services">
-            <div class="title-element">
-                <h2 class="services__title">услуги</h2>
-            </div>
+        <section id="services" class="services">
+            <h2 class="services__title">услуги</h2>
+
             <div class="services__wrapper">
                 <div class="services__container">
                     <p class="services__description services__description_uppercase"> наша команда каждый день работает
@@ -63,7 +64,6 @@
                         проработку
                         проекта, все эти принципы
                         позволяют нам успешно реализовывать самые сложные задачи в разных отраслях</p>
-                    <span class="block-element"></span>
                     <p class="services__description">Управление цифровой трансформации развивает и внедряет различные
                         цифровые сервисы в собственную
                         инфраструктуру Университета в целях повышения качества и доступности образовательных услуг.
@@ -208,9 +208,8 @@
             </div>
         </section>
         <section class="numbers">
-            <div class="title-element">
-                <h2 class="numbers__title">наши цифры</h2>
-            </div>
+
+            <h2 class="numbers__title">наши цифры</h2>
 
             <ul class="numbers__list">
                 <li class="numbers__item">
@@ -233,9 +232,9 @@
 
         </section>
         <section class="trust">
-            <div class="title-element">
-                <h2 class="trust__title">нам доверяют</h2>
-            </div>
+
+            <h2 class="trust__title">нам доверяют</h2>
+
             <div class="marquee">
                 <ul class="marquee-content">
                     <li> <img src="<%=require('./images/logos/asi.svg')%>" alt=""></li>
@@ -258,9 +257,9 @@
             </div>
         </section>
         <section class="team">
-            <div class="title-element">
-                <h2 class="team__title">наша команда</h2>
-            </div>
+
+            <h2 class="team__title">наша команда</h2>
+
             <div class="swiper">
                 <div class="swiper-wrapper">
                     <div class="team__profile swiper-slide">
@@ -302,9 +301,7 @@
             </div>
         </section>
         <section class="feedback">
-            <div class="title-element">
-                <h2 class="feedback__title">Оставить заявку</h2>
-            </div>
+            <h2 class="feedback__title">Оставить заявку</h2>
             <form class="feedback__form" action="#">
                 <ul class="feedback__list">
                     <li>
@@ -347,9 +344,7 @@
             </form>
         </section>
         <section class="contact">
-            <div class="title-element">
-                <h2 class="contact__title">контакты</h2>
-            </div>
+            <h2 class="contact__title">контакты</h2>
             <ul class="contact__list">
                 <li>
                     <h3 class="contact__subtitle">
@@ -370,7 +365,6 @@
             </ul>
         </section>
     </main>
-    <footer class="footer"></footer>
 </body>
 
 </html>

@@ -6,7 +6,20 @@
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    position: relative;
-    bottom: 55px;
-    left: 220px;
+    transform-style: preserve-3d;
+}
+
+.header__title::after {
+    background-color: #e6fe51;
+    background-image: url('../../../images/black_vector_lng.svg');
+    background-position: 91% 53%;
+    background-repeat: no-repeat;
+    bottom: -45px;
+    content: "";
+    display: block;
+    height: 86.527px;
+    left: -224px;
+    position: absolute;
+    transform: translateZ(-1px);
+    width: 428px;
 }
