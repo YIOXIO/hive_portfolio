@@ -12,10 +12,13 @@
     text-transform: uppercase;
     overflow: visible;
     word-wrap: break-word;
+    transition: all .3s linear;
 }
 
 .services__link:hover .services__card-descr {
     width: max-content;
+    font-weight: 500;
+    transition: all .3s linear;
 }
 
 

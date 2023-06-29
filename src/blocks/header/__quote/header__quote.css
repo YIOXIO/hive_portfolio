@@ -10,5 +10,6 @@
     margin-bottom: 152px;
     margin-left: 313px;
     padding: 0 15px 0 10px;
-    width: 404px;
+    max-width: 404px;
+    width: 100%;
 }
