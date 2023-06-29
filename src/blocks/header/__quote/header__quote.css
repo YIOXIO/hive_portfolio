@@ -12,3 +12,11 @@
     padding: 0 15px 0 10px;
     width: 404px;
 }
+
+@media screen and (max-width: 1441px) {
+    .header__quote {
+        margin-bottom: 193px;
+        margin-left: 148px;
+
+    }
+}

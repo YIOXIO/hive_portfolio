@@ -1,0 +1,13 @@
+.contact__list {
+    margin: 114px 0 114px 273px;
+    list-style: none;
+    border: 2.6px solid #1A1A1A;
+    padding: 44px 0 44px 51px;
+    max-width: 441px;
+    box-sizing: border-box;
+}
+
+
+.contact__list :is(li:nth-child(1)) {
+    margin-bottom: 30px;
+}

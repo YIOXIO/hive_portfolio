@@ -1,0 +1,12 @@
+.contact__link {
+    color: #000;
+    font-size: 20px;
+    line-height: 145%;
+    text-decoration: none;
+    transition: opacity .3s ease;
+    opacity: .5;
+}
+
+.contact__link:hover {
+    opacity: .8;
+}
