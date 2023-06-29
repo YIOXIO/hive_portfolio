@@ -1,4 +1,4 @@
-.feedback__title {
+.contact__title {
     color: #1A1A1A;
     font-size: 80px;
     font-weight: 500;
@@ -12,11 +12,10 @@
     flex-direction: row-reverse;
     left: 261px;
     transform-style: preserve-3d;
-
 }
 
 
-.feedback__title::after {
+.contact__title::after {
     background-color: #e6fe51;
     background-image: url('../../../images/black_vector_lng.svg');
     background-position: 91% 53%;
@@ -31,7 +30,7 @@
     width: 428px;
 }
 
-.feedback__title::before {
+.contact__title::before {
     content: '';
     color: #202020;
     font-size: 30px;

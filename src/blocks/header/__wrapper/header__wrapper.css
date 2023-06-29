@@ -5,3 +5,10 @@
     margin-left: 267px;
     margin-top: 140px;
 }
+
+@media screen and (max-width: 1441px) {
+    .header__wrapper {
+        margin-left: 15px;
+
+    }
+}

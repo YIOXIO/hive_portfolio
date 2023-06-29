@@ -66,68 +66,9 @@
 @import '../blocks/feedback/__submit-button/feedback__submit-button.css';
 @import '../blocks/feedback/__title/feedback__title.css';
 
-
-
-
-.contact__title {
-    color: #1A1A1A;
-    font-size: 80px;
-    font-weight: 500;
-    margin: 198px 0 0 0;
-    padding: 0;
-    text-transform: uppercase;
-    position: relative;
-    bottom: 55px;
-    left: 220px;
-    max-width: 650px;
-    white-space: nowrap;
-}
-
-.contact__title::after {
-    content: '';
-    position: relative;
-    bottom: 60px;
-    color: #1A1A1A;
-    font-size: 30px;
-    font-weight: 500;
-}
-
-.contact__list {
-    margin: 114px 0 114px 273px;
-    list-style: none;
-    border: 2.6px solid #1A1A1A;
-    padding: 44px 0 44px 51px;
-    max-width: 441px;
-    box-sizing: border-box;
-}
-
-.contact__subtitle {
-    color: #1A1A1A;
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 135%;
-    text-transform: uppercase;
-    padding: 0;
-    margin: 0 0 20px 0;
-}
-
-.contact__link {
-    color: #000;
-    font-size: 20px;
-    line-height: 145%;
-    text-decoration: none;
-    transition: opacity .3s ease;
-    opacity: .5;
-}
-
-.contact__link:hover {
-    opacity: .8;
-}
-
-.contact__list :is(li:nth-child(1)) {
-    margin-bottom: 30px;
-}
-
-.contact__img {
-    margin-top: 23px;
-}
+/* Стили для Contact */
+@import '../blocks/contact/__title/contact__title.css';
+@import '../blocks/contact/__subtitle/contact__subtitle.css';
+@import '../blocks/contact/__list/contact__list.css';
+@import '../blocks/contact/__link/contact__link.css';
+@import '../blocks/contact/__img/contact__img.css';
