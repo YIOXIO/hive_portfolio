@@ -72,3 +72,8 @@
 @import '../blocks/contact/__list/contact__list.css';
 @import '../blocks/contact/__link/contact__link.css';
 @import '../blocks/contact/__img/contact__img.css';
+
+
+.page {
+    background: url('../images/background.png')
+}

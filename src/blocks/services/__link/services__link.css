@@ -4,23 +4,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 44px 0 30px 51px;
-    color: #1A1A1A;
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 1.35;
-    text-transform: uppercase;
-    overflow: visible;
-    word-wrap: break-word;
+    padding: 44px 5px 30px 51px;
     transition: all .3s linear;
 }
-
-.services__link:hover .services__card-descr {
-    width: max-content;
-    font-weight: 500;
-    transition: all .3s linear;
-}
-
 
 .services__link svg {
     transform: translate3d(10px, 8px, 10px);

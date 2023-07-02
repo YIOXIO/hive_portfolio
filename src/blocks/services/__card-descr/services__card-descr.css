@@ -5,5 +5,27 @@
     line-height: 1.35;
     text-transform: uppercase;
     margin: 0;
+    padding: 0;
+    height: 100%;
     max-width: 350px;
+    transition: width .3s linear;
+}
+
+.services__card-descr:hover {
+    font-weight: 500;
+    width: 400px;
+    animation-name: card-animation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes card-animation {
+    0% {
+        opacity: 0;
+
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

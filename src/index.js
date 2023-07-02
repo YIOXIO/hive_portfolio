@@ -45,15 +45,17 @@ for (let i = 0; i < marqueeElementsDisplayed; i++) {
 }
 
 
-
-// import Swiper JS
 import Swiper from 'swiper';
-// import Swiper styles
 import 'swiper/css';
+import SwiperCore, { Autoplay } from 'swiper';
+
+SwiperCore.use([Autoplay]);
 
 const swiper = new Swiper('.swiper', {
     slidesPerView: 3,
     spaceBetween: 30,
-
-
+    autoplay: {
+        delay: 1600,
+        disableOnInteraction: false
+    }
 });
