@@ -8,13 +8,12 @@
     padding: 0;
     height: 100%;
     max-width: 350px;
-    transition: width .3s linear;
 }
 
 .services__card-descr:hover {
     font-weight: 500;
     width: 380px;
-    animation: fadeIn linear 1s;
+    animation: fadeIn linear 1.2s;
 }
 
 @keyframes fadeIn {

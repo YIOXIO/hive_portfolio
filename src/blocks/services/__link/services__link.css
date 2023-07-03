@@ -5,13 +5,12 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 44px 5px 30px 51px;
-    transition: all .3s linear;
 }
 
 .services__link svg {
     transform: translate3d(10px, 8px, 10px);
     width: 73px;
-    transition: transform 0.3s ease;
+    transition: transform .4s linear;
 }
 
 .services__link:hover svg {
