@@ -17,3 +17,18 @@
     flex-shrink: 0;
     margin: 116px 0 116px 45px;
 }
+
+@media screen and (max-width: 1024px) {
+    .services__description {
+        font-size: 10px;
+        max-width: 777px;
+
+    }
+
+    .services__description:nth-child(2)::after {
+        margin: 65px 0;
+        width: 72px;
+        height: 10px;
+
+    }
+}

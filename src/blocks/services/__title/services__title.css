@@ -1,6 +1,6 @@
 .services__title {
     color: #1A1A1A;
-    font-size: 80px;
+    font-size: 5rem;
     font-weight: 500;
     max-width: max-content;
     margin: 0;
@@ -12,16 +12,6 @@
     flex-direction: row-reverse;
     left: 261px;
     margin-left: 43px;
-}
-
-.services__title {
-    color: #1A1A1A;
-    font-size: 80px;
-    font-weight: 500;
-    max-width: max-content;
-    margin: 0;
-    padding: 0;
-    text-transform: uppercase;
     transform-style: preserve-3d;
 }
 

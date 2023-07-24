@@ -1,7 +1,7 @@
 .services__card-descr {
     color: #1A1A1A;
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.35;
     text-transform: uppercase;
     margin: 0;
@@ -24,5 +24,12 @@
 
     100% {
         opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .services__card-descr {
+        font-size: 14px;
+
     }
 }

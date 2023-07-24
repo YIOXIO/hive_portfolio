@@ -1,4 +1,13 @@
 .services__wrapper {
     display: flex;
-    margin: 102px 0 118px 269px;
+    justify-content: center;
+    padding: 102px 50px 0;
+    gap: 139px;
+}
+
+@media screen and (max-width: 1024px) {
+    .services__wrapper {
+        gap: 128px;
+
+    }
 }

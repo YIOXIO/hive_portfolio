@@ -7,3 +7,10 @@
     max-width: 350px;
     margin-bottom: 22px;
 }
+
+@media screen and (max-width: 1024px) {
+    .services__description_uppercase {
+        font-size: 14px;
+        max-width: 777px;
+    }
+}

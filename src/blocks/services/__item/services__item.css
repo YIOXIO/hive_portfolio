@@ -3,4 +3,15 @@
     height: 311px;
     max-width: 330px;
     border: 2.6px solid #1A1A1A;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .services__item {
+        max-width: 189px;
+        height: 178px;
+
+    }
 }
