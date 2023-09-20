@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 10%;
+}
+
 .root {
     margin: 0 auto;
     font-family: 'Inter', 'Arial', sans-serif;
@@ -9,7 +14,6 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     max-width: 1920px;
-    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
