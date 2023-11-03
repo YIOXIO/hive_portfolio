@@ -5,11 +5,12 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     entry: {
-        main: './src/index.js'
+        main: './src/index.js',
+        services: './src/services.js',
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'main.js',
+        filename: 'assets/js/[name].js',
         publicPath: ''
     },
 
@@ -18,7 +19,6 @@ module.exports = {
         static: path.resolve(__dirname, './dist'),
         compress: true,
         port: 8081,
-
         open: true
     },
     module: {
@@ -48,6 +48,11 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/services.html',
+            filename: 'services.html',
+            chunks: ['services']
         }),
 
         new CleanWebpackPlugin(),

@@ -1,3 +1,9 @@
 .trust {
-    margin-bottom: 313px;
+    padding: 0 13.9vw;
+    /* margin-bottom: 313px; */
+    background-image: url('../../images/decor-element-square.png'), url('../../images/decor-element-r.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0, 96.5%;
+    background-position-y: 93%;
 }

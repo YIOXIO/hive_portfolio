@@ -1,0 +1,19 @@
+/* Общие стили */
+@import '../vendor/fonts.css';
+@import '../blocks/services-block/root/root.css';
+
+@import '../blocks/services-block/tab/tab.css';
+
+
+/* Стили для Section-title */
+/* @import '../blocks/section-title/section-title.css'; */
+
+/* Стили для секции Services */
+@import '../blocks/services-block/services/services.css';
+@import '../blocks/services-block/services/__title/services__title.css';
+@import '../blocks/services-block/services/__subtitle/services__subtitle.css';
+@import '../blocks/services-block/services/__container/services__container.css';
+@import '../blocks/services-block/services/__content/services__content.css';
+@import '../blocks/services-block/services/__list/services__list.css';
+@import '../blocks/services-block/services/__descr/services__descr.css';
+@import '../blocks/services-block/services/__button/services__button.css';

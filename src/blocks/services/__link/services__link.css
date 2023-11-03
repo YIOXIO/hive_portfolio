@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 44px 5px 30px 51px;
+    padding: 47px 5px 23px 48px;
 }
 
 .services__link svg {
@@ -18,9 +18,18 @@
     transform: translate3d(20px, 8px, 10px);
 }
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .services__link {
-        padding: 44px 5px 30px 31px;
+        padding: 25px 0 13px 29px;
+    }
+
+    .services__link svg {
+        width: 63px;
 
     }
-} */
+
+    .services__link:hover svg {
+        width: 53px;
+
+    }
+}

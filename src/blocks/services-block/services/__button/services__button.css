@@ -1,0 +1,22 @@
+.services__button {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 135%;
+    border-radius: 20px;
+    padding: 7px 20px;
+    border: none;
+    color: #626262;
+    background: #F2F2F2;
+}
+
+.services__button:hover {
+    cursor: pointer;
+}
+
+
+.services__button--active {
+    background: #fff;
+    color: #202020;
+    outline: 1.8px solid #1a1a1a;
+}

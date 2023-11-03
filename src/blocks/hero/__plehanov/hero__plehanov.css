@@ -1,0 +1,16 @@
+.hero__plehanov {
+    transform: translateZ(1px);
+    position: absolute;
+    top: 21%;
+    left: 44%;
+    width: 42%;
+    object-fit: scale-down;
+}
+
+@media screen and (max-width:1024px) {
+    .hero__plehanov {
+        top: 19%;
+        left: 39%;
+        width: 46%;
+    }
+}

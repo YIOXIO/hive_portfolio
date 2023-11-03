@@ -12,5 +12,6 @@
     .services__description_uppercase {
         font-size: 14px;
         max-width: 777px;
+        margin-bottom: 14px;
     }
 }

@@ -1,0 +1,18 @@
+.hero__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 120px;
+    padding: 13px 30px 18.529px 8px;
+    white-space: nowrap;
+}
+
+.hero__item:nth-child(3) {
+    grid-area: 1/2;
+}
+
+@media screen and (max-width:1024px) {
+    .hero__item {
+        padding: 0;
+    }
+}

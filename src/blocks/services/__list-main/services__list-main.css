@@ -1,0 +1,17 @@
+.services__list-main {
+    flex-wrap: wrap;
+    margin: 0 0 132px;
+    padding: 0;
+    display: flex;
+    gap: 50px 136px;
+    list-style: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .services__list-main {
+        margin: 0 0 132px;
+        gap: 29px 77px;
+        justify-content: flex-start;
+
+    }
+}

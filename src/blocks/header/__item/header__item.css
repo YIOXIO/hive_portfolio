@@ -1,8 +1,0 @@
-.header__item {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    max-width: 120px;
-    padding: 13px 30px 18.529px 8px;
-    white-space: nowrap;
-}

@@ -1,0 +1,10 @@
+.services__container {
+    max-width: 1380px;
+    margin: 55px auto 0;
+}
+
+.services__container img{
+    max-width: 100%;
+}
+
+

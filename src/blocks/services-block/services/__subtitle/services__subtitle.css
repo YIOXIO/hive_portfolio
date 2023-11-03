@@ -1,0 +1,24 @@
+.services__subtitle {
+    color: #1a1a1a;
+    display: flex;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%;
+    margin: 55px 0 27px 12px;
+    padding: 0;
+    text-align: justify;
+    text-transform: uppercase;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.services__subtitle::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #1A1A1A;
+    display: block;
+}

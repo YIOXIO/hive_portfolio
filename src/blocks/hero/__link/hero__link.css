@@ -1,0 +1,25 @@
+.hero__link {
+    color: #202020;
+    font-size: 18px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: baseline;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    max-width: 120px;
+}
+
+.hero__link:hover {
+    font-weight: 600;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1024px) {
+    .hero__link {
+        gap: 11px;
+        font-size: 10px;
+    }
+}

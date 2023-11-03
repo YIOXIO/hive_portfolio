@@ -1,0 +1,9 @@
+.services__card-descr_hover-with-m:hover {
+    width: 330px;
+}
+
+@media screen and (max-width: 1024px) {
+    .services__card-descr_hover-with-m:hover {
+        width: 181px;
+    }
+}

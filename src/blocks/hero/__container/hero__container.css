@@ -1,0 +1,5 @@
+.hero__container {
+    display: flex;
+    transform-style: preserve-3d;
+    position: relative;
+}

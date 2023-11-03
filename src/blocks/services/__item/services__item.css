@@ -1,17 +1,29 @@
 .services__item {
     display: flex;
-    height: 311px;
+    min-height: 311px;
     max-width: 330px;
     border: 2.6px solid #1A1A1A;
     width: 100%;
     box-sizing: border-box;
+    flex: 1;
+
 }
 
 
 @media screen and (max-width: 1024px) {
     .services__item {
+        min-height: 178px;
         max-width: 189px;
-        height: 178px;
 
     }
+
+    .services__item img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /*.services__item {
+        max-width: 189px;
+        height: 178px;} */
 }

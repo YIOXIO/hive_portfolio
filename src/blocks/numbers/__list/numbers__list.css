@@ -2,10 +2,9 @@
     display: flex;
     list-style: none;
     max-width: 1378px;
-    margin: 101px auto 100px auto;
+    margin: 146px auto 78px;
     padding: 0;
     gap: 120px;
     box-sizing: border-box;
-    height: 233px;
     justify-content: space-between;
 }

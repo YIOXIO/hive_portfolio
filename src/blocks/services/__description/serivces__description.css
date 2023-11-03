@@ -21,14 +21,13 @@
 @media screen and (max-width: 1024px) {
     .services__description {
         font-size: 10px;
-        max-width: 777px;
+        max-width: 188px;
 
     }
 
     .services__description:nth-child(2)::after {
-        margin: 65px 0;
-        width: 72px;
         height: 10px;
-
+        margin: 65px 0 65px 29px;
+        width: 72px;
     }
 }

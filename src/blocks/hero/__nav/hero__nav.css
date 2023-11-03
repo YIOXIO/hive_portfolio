@@ -1,0 +1,20 @@
+.hero__nav {
+    align-self: flex-end;
+    border: 2.6px solid #000;
+    box-sizing: border-box;
+    margin-bottom: -95px;
+    margin-left: 31px;
+    min-height: 312px;
+    max-width: 328px;
+    transform: translateZ(2px);
+}
+
+@media screen and (max-width: 1024px) {
+    .hero__nav {
+        margin-bottom: -46px;
+        margin-left: 27px;
+        max-width: 229px;
+        min-height: 147px;
+    }
+
+}

@@ -1,0 +1,16 @@
+.hero__year {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-left: 55px;
+    margin-bottom: -114px;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero__year {
+        gap: 7px;
+        margin-bottom: -23px;
+        margin-left: 10px;
+    }
+}

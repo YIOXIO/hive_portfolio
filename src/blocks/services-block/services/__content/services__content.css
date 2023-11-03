@@ -1,0 +1,9 @@
+.services__content {
+    display: none;
+    margin-top: 29px;
+    transition: all .3s ease-in;
+}
+
+.services__content--active {
+    display: block;
+}

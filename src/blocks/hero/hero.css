@@ -1,0 +1,16 @@
+.hero {
+    background-image: url('../../images/background_s.png');
+    background-repeat: no-repeat;
+    background-color: #4655D8;
+    min-height: 95vh;
+    margin-bottom: 78px;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        min-height: 68dvh;
+        background-image: url('../../images/main-background_1024.png');
+        background-position: 100% -29%;
+        margin: 0;
+    }
+}

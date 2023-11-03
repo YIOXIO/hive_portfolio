@@ -1,13 +1,13 @@
 .services__wrapper {
-    display: flex;
-    justify-content: center;
-    padding: 102px 50px 0;
-    gap: 139px;
+    display: grid;
+    grid-template-columns: .52fr 1fr;
+    margin-top: 159px;
 }
 
 @media screen and (max-width: 1024px) {
     .services__wrapper {
-        gap: 128px;
-
+        grid-template-columns: .4fr 1fr;
+        margin-top: 91px;
+        gap: 114px;
     }
 }

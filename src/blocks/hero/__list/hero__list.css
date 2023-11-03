@@ -1,0 +1,20 @@
+.hero__list {
+    box-sizing: border-box;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    margin: 0;
+    max-width: 326px;
+    padding: 43px 0 29px 24px;
+    row-gap: 21px;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero__list {
+        max-width: 190px;
+        padding: 32px 0 33px 21px;
+        gap: 31px 25px;
+    }
+}

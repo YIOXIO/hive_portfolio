@@ -1,0 +1,23 @@
+.hero__numbers {
+    color: #202020;
+    font-size: 48.133px;
+}
+
+.hero__numbers::after {
+    background-color: #202020;
+    content: "";
+    display: block;
+    height: 14px;
+    width: 62px;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero__numbers {
+        font-size: 28px;
+    }
+
+    .hero__numbers::after {
+        height: 6px;
+        width: 37px;
+    }
+}

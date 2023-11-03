@@ -1,0 +1,25 @@
+.hero__quote {
+    align-self: center;
+    border: 2.6px solid;
+    box-sizing: border-box;
+    color: #1a1a1a;
+    font-size: 17px;
+    font-weight: 500;
+    height: 178px;
+    line-height: 115%;
+    margin-bottom: 152px;
+    margin-left: 313px;
+    padding: 6px 5px 0 12px;
+    max-width: 404px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero__quote {
+        height: 95px;
+        max-width: 213px;
+        margin-bottom: 58px;
+        margin-left: 173px;
+
+    }
+}
