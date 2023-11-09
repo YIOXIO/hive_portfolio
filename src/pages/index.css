@@ -8,6 +8,7 @@
 @import '../blocks/section-title/_services/section-title_services.css';
 @import '../blocks/section-title/_numbers/section-title_numbers.css';
 @import '../blocks/section-title/_trust/section-title_trust.css';
+@import '../blocks/section-title/_team/section-title_team.css';
 
 /* Стили для hero */
 @import '../blocks/hero/hero.css';
@@ -116,6 +117,10 @@
         padding: 0 9.9vw;
     }
 
+    .feedback {
+        padding: 0 9.9vw;
+    }
+
     .contact__list {
         margin: 60px 0 0 0;
     }
@@ -171,7 +176,7 @@
         position: absolute;
         top: 10%;
         transform: translateZ(-1px);
-        width: 100%;
+        width: 70%;
     }
 
     .hero__year {
@@ -190,7 +195,6 @@
         width: 100%;
         margin: 0;
         align-self: flex-start;
-        max-width: 100%;
     }
 
     .hero__item {
@@ -287,5 +291,72 @@
         margin: 0 0 10px;
         padding: 0;
         text-transform: uppercase;
+    }
+}
+
+.swiper {
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+}
+
+.swiper-wrapper {
+    padding: 0;
+    margin: 180px 0 0 0;
+}
+
+.team {
+    padding: 0 0 0 13.9vw;
+}
+
+.feedback {
+    padding: 0 0 0 13.9vw;
+}
+
+
+.contact {
+    padding: 0 13.9vw;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .hero {
+        background-position: right;
+    }
+
+    .hero__year {
+        transform: translate(136%, 50%);
+        margin: 0;
+    }
+
+    .hero__wrapper {
+        margin-left: 70px;
+    }
+
+    .hero__quote {
+        font-size: 16px;
+        margin: 0;
+        transform: translate(12%, -50%);
+    }
+
+    .hero__plehanov {
+        top: 35%;
+    }
+
+    .services,
+    .contact,
+    .feedback {
+        padding: 0 70px;
+    }
+
+    .numbers {
+        padding: 70px;
+    }
+
+    .team {
+        padding: 0 0 0 70px;
+    }
+
+    .services__list-main {
+        column-gap: 80px;
     }
 }
